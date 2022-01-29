@@ -2,6 +2,8 @@ package com.example.collegefinder;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
 import android.content.Intent;
@@ -20,53 +22,69 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
-    boolean isPermissionGranted;
-    Button tryx;
+    RecyclerView topCollege;
+    RecyclerView topNit;
+    ArrayList<College> colleges;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tryx = findViewById(R.id.tryx);
-        tryx.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, CollegeInfoActivity.class);
-                startActivity(intent);
-            }
-        });
+        topCollege = findViewById(R.id.top_college_rv);
+        topNit = findViewById(R.id.top_nit_rv);
+        JSONArray jsonColleges = get_json();
+        jsonToArraylist(jsonColleges);
 
-//        checkMyPermission();
-//
-//        if(isPermissionGranted){
-//            SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
-//            mapFragment.getMapAsync(this);
-//        }
+        topCollege.setLayoutManager(new LinearLayoutManager(this, topCollege.HORIZONTAL, false));
+        TopCollegeAdapterRV adapter = new TopCollegeAdapterRV(colleges);
+        topCollege.setAdapter(adapter);
+
+        topNit.setLayoutManager(new LinearLayoutManager(this, topNit.HORIZONTAL, false));
+        TopNitAdapterRV adapterNit = new TopNitAdapterRV(colleges);
+        topNit.setAdapter(adapter);
     }
 
-//    private void checkMyPermission() {
-//        Dexter.withContext(this).withPermission(Manifest.permission.ACCESS_FINE_LOCATION).withListener(new PermissionListener() {
-//            @Override
-//            public void onPermissionGranted(PermissionGrantedResponse permissionGrantedResponse) {
-//                Toast.makeText(MainActivity.this, "Perimssion Given", Toast.LENGTH_SHORT).show();
-//                isPermissionGranted = true;
-//            }
-//
-//            @Override
-//            public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
-//                Toast.makeText(MainActivity.this, "Perimssion Denied", Toast.LENGTH_LONG).show();
-//            }
-//
-//            @Override
-//            public void onPermissionRationaleShouldBeShown(PermissionRequest permissionRequest, PermissionToken permissionToken) {
-//
-//            }
-//        }).check();
-//    }
-//
-//    @Override
-//    public void onMapReady(@NonNull GoogleMap googleMap) {
-//
-//    }
+    public JSONArray get_json(){
+        String json;
+        JSONArray jsonArray = null;
+        try{
+            InputStream is = getAssets().open("colleges.json");
+            int size = is.available();
+            byte buffer[] = new byte[size];
+            is.read();
+            is.close();
+            json = new String(buffer,"UTF-8");
+            JSONArray temp= new JSONArray(json);
+            jsonArray = temp;
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }catch (JSONException e){
+            e.printStackTrace();
+        }
+
+        return jsonArray;
+    }
+
+    public void jsonToArraylist(JSONArray array){
+        for(int i=0; i<30; i++){
+            JSONObject object = null;
+            try {
+                object= array.getJSONObject(i);
+                College college = new College(object.getString("name"), object.getString("img"), object.getString("info"), object.getString("website"), object.getString("hostel"), object.getString("city"), object.getString("state"), object.getLong("lattitude"), object.getLong("longitude"), object.getInt("nirf"), object.getInt("fees"), object.getInt("seats"), object.getDouble("placementpercent"), object.getJSONArray("courses"));
+                colleges.add(college);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
