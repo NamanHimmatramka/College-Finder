@@ -1,0 +1,925 @@
+[
+  {
+    "name": "Sardar Patel Institute of Technology",
+    "lattitude": 19.12321569100653,
+    "longitude": 72.8362441817091,
+    "img": "http://www.spit.ac.in/wp-content/uploads/2009/11/Entrance.jpg",
+    "info": "Sardar Patel Institute of Technology is an autonomous un-aided Research and Engineering Institute affiliated with the University of Mumbai. ",
+    "exam": "JEE",
+    "website": "https://www.spit.ac.in/",
+    "hostel": "No",
+    "nirf": 143,
+    "fees": 170000,
+    "seats": 240,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 99.4,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 11200,
+        "cutoff2": 11188,
+        "avgsal": 14
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 11300,
+        "cutoff2": 12284,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 22500,
+        "cutoff2": 25665,
+        "avgsal": 10
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 30120,
+        "cutoff2": 38135,
+        "avgsal": 10
+      }
+    ]
+  },
+
+  {
+    "name": "Veermata Jijabai Technological Institute",
+    "lattitude": 19.022368742247917,
+    "longitude": 72.85607635941844,
+    "img": "https://getmyuni.azureedge.net/college-image/big/veermata-jijabai-technological-institute-vjti-mumbai.jpg",
+    "info": "Veermata Jijabai Technological Institute is a state funded college located in Mumbai, Maharashtra, India, and one of the oldest engineering colleges in Asia.",
+    "exam": "JEE",
+    "website": "https://vjti.ac.in/",
+    "hostel": "Yes",
+    "nirf": 82,
+    "fees": 82000,
+    "seats": 200,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 87.13,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 10200,
+        "cutoff2": 10588,
+        "avgsal": 16
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 10400,
+        "cutoff2": 11284,
+        "avgsal": 13
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 19500,
+        "cutoff2": 20665,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 24120,
+        "cutoff2": 25135,
+        "avgsal": 10
+      }
+    ]
+  },
+
+  {
+    "name": "D.J. Sanghvi College of Engineering",
+    "lattitude": 19.107781354906567,
+    "longitude": 72.83653282630902,
+    "img": "https://aniportalimages.s3.amazonaws.com/media/details/College_Building_photo_ob0p4o0.jpg",
+    "info": "Dwarkadas Jivanlal Sanghvi College of Engineering, also known as D. J. Sanghvi, is an engineering college in Vile Parle, Mumbai. ",
+    "exam": "JEE",
+    "website": "https://www.djsce.ac.in/",
+    "hostel": "Yes",
+    "nirf": 195,
+    "fees": 182000,
+    "seats": 280,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 95.51,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 14200,
+        "cutoff2": 14588,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 20400,
+        "cutoff2": 21284,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 19500,
+        "cutoff2": 20665,
+        "avgsal": 8
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 27120,
+        "cutoff2": 28135,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "K.J. Somaiya College of Engineering",
+    "lattitude": 19.073710183444454,
+    "longitude": 72.89949165329175,
+    "img": "https://images.shiksha.com/mediadata/images/1499418924phpOpG948.jpeg",
+    "info": "The K. J. Somaiya College of Engineering was established in 1983 at Somaiya Vidyavihar, and affiliated with the Somaiya Vidyavihar University.",
+    "exam": "JEE",
+    "website": "https://www.kjsce.ac.in/",
+    "hostel": "Yes",
+    "nirf": 300,
+    "fees": 282000,
+    "seats": 280,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 94.56,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 14310,
+        "cutoff2": 14658,
+        "avgsal": 11.5
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 19451,
+        "cutoff2": 20384,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 19554,
+        "cutoff2": 20713,
+        "avgsal": 8.5
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 27623,
+        "cutoff2": 28537,
+        "avgsal": 5
+      }
+    ]
+  },
+
+  {
+    "name": "Thakur College of Engineering and Technology",
+    "lattitude": 19.206079525455436,
+    "longitude": 72.8747975312797,
+    "img": "https://images.shiksha.com/mediadata/images/1489300063phpA1CPrW.jpeg",
+    "info": "Thakur College of Engineering and Technology is an engineering college in Mumbai, India. It is located in Thakur village locality in Kandivali East",
+    "exam": "JEE",
+    "website": "https://www.tcetmumbai.in/",
+    "hostel": "No",
+    "nirf": 201,
+    "fees": 158176,
+    "seats": 870,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 93.61,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 34510,
+        "cutoff2": 35958,
+        "avgsal": 8
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 35156,
+        "cutoff2": 36384,
+        "avgsal": 7.5
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 37513,
+        "cutoff2": 38153,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 40123,
+        "cutoff2": 41132,
+        "avgsal": 5
+      }
+    ]
+  },
+
+  {
+    "name": "St. Francis Institute of Technology",
+    "lattitude": 19.243803580233156,
+    "longitude": 72.85643398330808,
+    "img": "https://www.sfit.ac.in/images/building.jpg",
+    "info": "St. Francis Institute of Technology in Mumbai, India is an engineering college named after Francis of Assisi, the 12th-century Italian saint.",
+    "exam": "JEE",
+    "website": "https://www.sfit.ac.in/",
+    "hostel": "No",
+    "nirf": 401,
+    "fees": 120000,
+    "seats": 577,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 94.13,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 44510,
+        "cutoff2": 45413,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 44756,
+        "cutoff2": 45914,
+        "avgsal": 7
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 47543,
+        "cutoff2": 48153,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 48163,
+        "cutoff2": 49132,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "Thadomal Shahani Engineering College",
+    "lattitude": 19.064525529353205,
+    "longitude": 72.83594602764089,
+    "img": "https://www.sfit.ac.in/images/building.jpg",
+    "info": "Thadomal Shahani Engineering College founded in 1983, is the first and the oldest private engineering institute affiliated with the University of Mumbai.",
+    "exam": "JEE",
+    "website": "https://tsec.edu/",
+    "hostel": "No",
+    "nirf": 371,
+    "fees": 168295,
+    "seats": 480,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 94.47,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 35110,
+        "cutoff2": 36011,
+        "avgsal": 8
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 36756,
+        "cutoff2": 37715,
+        "avgsal": 7
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 37641,
+        "cutoff2": 38756,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 38181,
+        "cutoff2": 39218,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "Thadomal Shahani Engineering College",
+    "lattitude": 19.064525529353205,
+    "longitude": 72.83594602764089,
+    "img": "https://www.sfit.ac.in/images/building.jpg",
+    "info": "Thadomal Shahani Engineering College founded in 1983, is the first and the oldest private engineering institute affiliated with the University of Mumbai.",
+    "exam": "JEE",
+    "website": "https://tsec.edu/",
+    "hostel": "No",
+    "nirf": 371,
+    "fees": 168295,
+    "seats": 480,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 94.47,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 35110,
+        "cutoff2": 36011,
+        "avgsal": 8
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 36756,
+        "cutoff2": 37715,
+        "avgsal": 7
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 37641,
+        "cutoff2": 38756,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 38181,
+        "cutoff2": 39218,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "Rajiv Gandhi Institute of Technology",
+    "lattitude": 19.122103449723653,
+    "longitude": 72.8237143,
+    "img": "https://images.collegedunia.com/public/college_data/images/appImage/14734_RGIT_New.jpg?mode=stretch",
+    "info": "Rajiv Gandhi Institute of Technology is a private institute affiliated to the University of Mumbai.",
+    "exam": "JEE",
+    "website": "https://www.mctrgit.ac.in/",
+    "hostel": "No",
+    "nirf": -1,
+    "fees": 188295,
+    "seats": 490,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 94.47,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 75110,
+        "cutoff2": 77011,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 76756,
+        "cutoff2": 78715,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 79641,
+        "cutoff2": 80156,
+        "avgsal": 4
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 80181,
+        "cutoff2": 81418,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "Atharva College Of Engineering",
+    "lattitude": 19.198027695147093,
+    "longitude": 72.8270202178469,
+    "img": "https://s3.eu-north-1.amazonaws.com/images.free-apply.com/uni/gallery/lg/1035601245/f7b32b91515619ce6a606251e0e1880b0370400d.jpg",
+    "info": "Atharva College of Engineering was established in the year 1999. The college is affiliated to Mumbai University and is approved by All India Council for Technical Education (A.I.C.T.E.) and DTE, Government of Maharashtra.",
+    "exam": "JEE",
+    "website": "https://www.atharvacoe.ac.in/",
+    "hostel": "No",
+    "nirf": -1,
+    "fees": 208295,
+    "seats": 340,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 76.1,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 115110,
+        "cutoff2": 117011,
+        "avgsal": 5
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 117756,
+        "cutoff2": 117815,
+        "avgsal": 4
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 117641,
+        "cutoff2": 118016,
+        "avgsal": 4
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 120181,
+        "cutoff2": 121418,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "Pillai College of Engineering",
+    "lattitude": 18.990557931099627,
+    "longitude": 73.1276301795935,
+    "img": "https://s3.eu-north-1.amazonaws.com/images.free-apply.com/uni/gallery/lg/1035601245/f7b32b91515619ce6a606251e0e1880b0370400d.jpg",
+    "info": "Pillai College of Engineering formerly Pillai's Institute of Information Technology, Engineering, management Studies and Research is an engineering college in New Panvel, Navi Mumbai, Maharashtra",
+    "exam": "JEE",
+    "website": "https://www.pce.ac.in/",
+    "hostel": "No",
+    "nirf": -1,
+    "fees": 148295,
+    "seats": 290,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "placementpercent": 79.67,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 805110,
+        "cutoff2": 81711,
+        "avgsal": 6
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 81756,
+        "cutoff2": 82815,
+        "avgsal": 5
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 89341,
+        "cutoff2": 89916,
+        "avgsal": 4
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 90181,
+        "cutoff2": 91418,
+        "avgsal": 4
+      }
+    ]
+  },
+
+  {
+    "name": "College Of Engineering Pune",
+    "lattitude": 18.529565595216233, 
+    "longitude": 73.85659464144048,
+    "img": "https://www.collegewale.in/wp-content/uploads/2019/09/college-of-engineering-pune.jpg",
+    "info": "College of Engineering Pune, is an autonomous institute of the Government of Maharashtra, situated in Pune, Maharashtra, India",
+    "exam": "JEE",
+    "website": "https://www.coep.org.in/",
+    "hostel": "Yes",
+    "nirf": 50,
+    "fees": 81295,
+    "seats": 240,
+    "city": "Pune",
+    "state": "Maharashtra",
+    "placementpercent": 98.67,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 10715,
+        "cutoff2": 11141,
+        "avgsal": 13
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 11256,
+        "cutoff2": 12518,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 13611,
+        "cutoff2": 14171,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 15618,
+        "cutoff2": 16715,
+        "avgsal": 8
+      }
+    ]
+  },
+
+  {
+    "name": "Pune Institute of Computer Technology and College Of Engineering",
+    "lattitude": 18.45778633356161, 
+    "longitude": 73.85076922424186,
+    "img": "https://mycollegekhoj.com/wp-content/uploads/2019/04/14109444181.jpeg",
+    "info": "Pune Institute of Computer Technology, is a private unaided engineering college located in Dhankawadi, Pune, India.",
+    "exam": "JEE",
+    "website": "https://pict.edu/",
+    "hostel": "Yes",
+    "nirf": 201,
+    "fees": 121295,
+    "seats": 240,
+    "city": "Pune",
+    "state": "Maharashtra",
+    "placementpercent": 96.67,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 10715,
+        "cutoff2": 11141,
+        "avgsal": 13
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 11256,
+        "cutoff2": 12518,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 13611,
+        "cutoff2": 14171,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 15618,
+        "cutoff2": 16715,
+        "avgsal": 8
+      }
+    ]
+  },
+
+  {
+    "name": "Vishwakarma Institute of Technology",
+    "lattitude": 18.463835595248934, 
+    "longitude": 73.86830025646819,
+    "img": "https://mycollegekhoj.com/wp-content/uploads/2019/04/14109444181.jpeg",
+    "info": "Vishwakarma Institute of Technology is an autonomous engineering college located in Upper Indira Nagar, Bibwewadi, Pune, Maharashtra, India.",
+    "exam": "JEE",
+    "website": "https://www.vit.edu/",
+    "hostel": "Yes",
+    "nirf": 211,
+    "fees": 121295,
+    "seats": 240,
+    "city": "Pune",
+    "state": "Maharashtra",
+    "placementpercent": 93.17,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 16715,
+        "cutoff2": 17141,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 17256,
+        "cutoff2": 18518,
+        "avgsal": 10
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 18011,
+        "cutoff2": 18171,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 18618,
+        "cutoff2": 19715,
+        "avgsal": 8
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Jalandhar",
+    "lattitude": 31.3958746,
+    "longitude": 75.5336552,
+    "img": "https://images.tribuneindia.com/cms/gall_content/2019/7/2019_7$largeimg10_Wednesday_2019_081950965.jpg",
+    "info": "Dr. B. R. Ambedkar National Institute of Technology Jalandhar, formerly Regional Engineering College Jalandhar, is a public engineering university located in Jalandhar, Punjab, India.",
+    "exam": "JEE",
+    "website": "https://www.nitj.ac.in/",
+    "hostel": "Yes",
+    "nirf": 49,
+    "fees": 120295,
+    "seats": 240,
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "placementpercent": 98.27,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 10715,
+        "cutoff2": 11141,
+        "avgsal": 13
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 12256,
+        "cutoff2": 12518,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 13011,
+        "cutoff2": 13171,
+        "avgsal": 10
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 14618,
+        "cutoff2": 14715,
+        "avgsal": 10
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Nagpur",
+    "lattitude": 21.1232417,
+    "longitude": 79.0493238,
+    "img": "https://vnit.ac.in/coe/assets/images/vnit-night.jpg",
+    "info": "Visvesvaraya National Institute of Technology Nagpur, is a public technical university located in the central India city of Nagpur, Maharashtra. ",
+    "exam": "JEE",
+    "website": "https://www.vnit.ac.in/",
+    "hostel": "Yes",
+    "nirf": 30,
+    "fees": 120295,
+    "seats": 240,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "placementpercent": 98.21,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 7015,
+        "cutoff2": 7141,
+        "avgsal": 15
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 7256,
+        "cutoff2": 7518,
+        "avgsal": 14
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 8011,
+        "cutoff2": 8171,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 8218,
+        "cutoff2": 8715,
+        "avgsal": 10
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Delhi",
+    "lattitude": 28.8429798,
+    "longitude": 77.1023542,
+    "img": "https://images.shiksha.com/mediadata/images/1510395400phpXZGatT.jpeg",
+    "info": "National Institute of Technology, Delhi is a premiere public technical university located in Delhi, India. It has been declared as an Institute of National Importance by an act of Parliament of India.",
+    "exam": "JEE",
+    "website": "https://nitdelhi.ac.in/",
+    "hostel": "Yes",
+    "nirf": -1,
+    "fees": 120195,
+    "seats": 240,
+    "city": "Delhi",
+    "state": "Delhi",
+    "placementpercent": 95.21,
+
+    "courses": [
+      {
+        "coursename": "Computer Engineering",
+        "cutoff1": 30015,
+        "cutoff2": 31041,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 32156,
+        "cutoff2": 33118,
+        "avgsal": 9
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 34611,
+        "cutoff2": 35171,
+        "avgsal": 8
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 35189,
+        "cutoff2": 36195,
+        "avgsal": 7
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Warangal",
+    "lattitude": 17.983523,
+    "longitude": 79.5286499,
+    "img": "https://www.nitw.ac.in/media/uploads/2018/09/10/16th-convocation.jpg",
+    "info": "National Institute of Technology Warangal is a public technical and research university located in Warangal, India.",
+    "exam": "JEE",
+    "website": "https://www.nitw.ac.in/",
+    "hostel": "Yes",
+    "nirf": 16,
+    "fees": 110195,
+    "seats": 240,
+    "city": "Warangal",
+    "state": "Telengana",
+    "placementpercent": 98.21,
+
+    "courses": [
+      { 
+        "coursename": "Computer Engineering",
+        "cutoff1": 4015,
+        "cutoff2": 4081,
+        "avgsal": 15
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 4556,
+        "cutoff2": 4618,
+        "avgsal": 14
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 5167,
+        "cutoff2": 5267,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 5267,
+        "cutoff2": 5314,
+        "avgsal": 11
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Trichy",
+    "lattitude": 10.7589381,
+    "longitude": 78.8110294,
+    "img": "https://bsmedia.business-standard.com/_media/bs/img/article/2019-12/30/full/1577714480-9818.jpg",
+    "info": "Established in the year 1964, the National Institute of Technology in Tiruchirappalli is a government-run institution for higher education and advanced research, mainly in engineering and technology.",
+    "exam": "JEE",
+    "website": "https://www.nitt.edu/",
+    "hostel": "Yes",
+    "nirf": 7,
+    "fees": 110195,
+    "seats": 240,
+    "city": "Trichy",
+    "state": "Tamil Nadu",
+    "placementpercent": 99.21,
+
+    "courses": [
+      { 
+        "coursename": "Computer Engineering",
+        "cutoff1": 4015,
+        "cutoff2": 4081,
+        "avgsal": 15
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 4556,
+        "cutoff2": 4618,
+        "avgsal": 14
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 5167,
+        "cutoff2": 5267,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 5267,
+        "cutoff2": 5314,
+        "avgsal": 11
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Calicut",
+    "lattitude": 11.321821053258015, 
+    "longitude": 75.9336144397047,
+    "img": "https://www.microtec.in/storage/50d21364-e0a7-4ff6-8010-6108a4792e8f/50d21364-e0a7-4ff6-8010-6108a4792e8f-1587032289.jpeg",
+    "info": "National Institute of Technology Calicut, formerly Regional Engineering College Calicut, is a public technical university and an institute of national importance governed by the NIT Act passed by the Parliament of India.",
+    "exam": "JEE",
+    "website": "https://www.nitc.edu/",
+    "hostel": "Yes",
+    "nirf": 34,
+    "fees": 110195,
+    "seats": 240,
+    "city": "Calicut",
+    "state": "Kerala",
+    "placementpercent": 97.21,
+
+    "courses": [
+      { 
+        "coursename": "Computer Engineering",
+        "cutoff1": 15015,
+        "cutoff2": 15181,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 16413,
+        "cutoff2": 16914,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 17515,
+        "cutoff2": 17951,
+        "avgsal": 10
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 18267,
+        "cutoff2": 18614,
+        "avgsal": 9
+      }
+    ]
+  },
+
+  {
+    "name": "NIT Rourkela",
+    "lattitude": 22.2530656,
+    "longitude": 84.8987921,
+    "img": "https://www.microtec.in/storage/50d21364-e0a7-4ff6-8010-6108a4792e8f/50d21364-e0a7-4ff6-8010-6108a4792e8f-1587032289.jpeg",
+    "info": "National Institute of Technology, Rourkela, formerly Regional Engineering College, Rourkela is a publicly funded institute of higher learning for engineering, science and technology located in the steel city of Rourkela, Odisha, India",
+    "exam": "JEE",
+    "website": "https://www.nitrkl.edu/",
+    "hostel": "Yes",
+    "nirf": 38,
+    "fees": 110195,
+    "seats": 240,
+    "city": "Rourkela",
+    "state": "Odisha",
+    "placementpercent": 96.21,
+
+    "courses": [
+      { 
+        "coursename": "Computer Engineering",
+        "cutoff1": 12015,
+        "cutoff2": 12181,
+        "avgsal": 12
+      },
+      {
+        "coursename": "Information Technology",
+        "cutoff1": 13413,
+        "cutoff2": 13914,
+        "avgsal": 11
+      },
+      {
+        "coursename": "Electronics Engineering",
+        "cutoff1": 14515,
+        "cutoff2": 14951,
+        "avgsal": 10
+      },
+      {
+        "coursename": "Electrical Engineering",
+        "cutoff1": 15267,
+        "cutoff2": 15614,
+        "avgsal": 9
+      }
+    ]
+  }
+]
