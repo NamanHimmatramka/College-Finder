@@ -18,6 +18,9 @@ public class CollegeInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_college_info);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation_view);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.college_info_frame_layout, new CollegeInfoFragment()).commit();
+
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
