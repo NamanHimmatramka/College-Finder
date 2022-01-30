@@ -1,5 +1,7 @@
 package com.example.collegefinder;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +17,10 @@ import java.util.ArrayList;
 
 public class TopCollegeAdapterRV extends RecyclerView.Adapter<TopCollegeViewHolder> {
     ArrayList<College> colleges;
-    public TopCollegeAdapterRV(ArrayList<College> colleges){
+    Context ctx;
+    public TopCollegeAdapterRV(ArrayList<College> colleges, Context ctx){
         this.colleges = colleges;
+        this.ctx =ctx;
     }
     @NonNull
     @Override
@@ -30,6 +34,18 @@ public class TopCollegeAdapterRV extends RecyclerView.Adapter<TopCollegeViewHold
     public void onBindViewHolder(@NonNull TopCollegeViewHolder holder, int position) {
         holder.collegeName.setText(colleges.get(position).name);
         Glide.with(holder.collegeImage.getContext()).load(colleges.get(position).imgUrl).into(holder.collegeImage);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ctx, CollegeInfoActivity.class);
+                intent.putExtra("object", colleges.get(position));
+
+
+            }
+        });
+        Intent intent = new Intent();
+
     }
 
     @Override

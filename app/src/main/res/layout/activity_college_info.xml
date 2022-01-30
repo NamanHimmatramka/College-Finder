@@ -17,8 +17,4 @@
         android:layout_height="match_parent"
         android:id="@+id/college_info_frame_layout"/>
 
-
-
-
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

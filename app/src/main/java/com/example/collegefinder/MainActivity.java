@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         jsonToArraylist(jsonColleges);
 
         topCollege.setLayoutManager(new LinearLayoutManager(this, topCollege.HORIZONTAL, false));
-        TopCollegeAdapterRV adapter = new TopCollegeAdapterRV(colleges);
+        TopCollegeAdapterRV adapter = new TopCollegeAdapterRV(colleges, this);
         topCollege.setAdapter(adapter);
 
         topNit.setLayoutManager(new LinearLayoutManager(this, topNit.HORIZONTAL, false));

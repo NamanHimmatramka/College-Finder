@@ -3,6 +3,7 @@ package com.example.collegefinder;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -18,6 +19,11 @@ public class CollegeInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_college_info);
 
         bottomNavigationView = findViewById(R.id.bottom_navigation_view);
+
+        Intent intent = getIntent();
+        College college = (College)intent.getSerializableExtra("object");
+
+
 
         getSupportFragmentManager().beginTransaction().replace(R.id.college_info_frame_layout, new CollegeInfoFragment()).commit();
 

@@ -3,9 +3,11 @@ package com.example.collegefinder;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class College {
+@SuppressWarnings("serial")
+public class College implements Serializable {
     String name,imgUrl,info,website,hostel,city,state;
     long latitude,longitude;
     int nirf,fees,seats;
