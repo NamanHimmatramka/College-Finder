@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 public class TopCollegeAdapterRV extends RecyclerView.Adapter<TopCollegeViewHolder> {
@@ -26,12 +28,13 @@ public class TopCollegeAdapterRV extends RecyclerView.Adapter<TopCollegeViewHold
 
     @Override
     public void onBindViewHolder(@NonNull TopCollegeViewHolder holder, int position) {
-
+        holder.collegeName.setText(colleges.get(position).name);
+        Glide.with(holder.collegeImage.getContext()).load(colleges.get(position).imgUrl).into(holder.collegeImage);
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return colleges.size();
     }
 }
 
